@@ -1,0 +1,14 @@
+#@layout()
+#define main()
+<div style="padding: 15px;">
+	<fieldset class="layui-elem-field layui-field-title">
+		<legend>首页</legend>
+	</fieldset>
+	<blockquote class="layui-elem-quote">
+		欢迎用户：#(session.loginUser.account)
+	</blockquote>
+	<blockquote class="layui-elem-quote">
+		用户姓名：#(session.loginUser.xueName)
+	</blockquote>
+</div>
+#end

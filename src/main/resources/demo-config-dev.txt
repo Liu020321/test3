@@ -1,0 +1,5 @@
+# config
+jdbcUrl  = jdbc:mysql://localhost/studentmanage?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull
+username = root
+password = 20204112
+devMode  = true
